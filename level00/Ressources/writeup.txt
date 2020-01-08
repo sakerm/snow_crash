@@ -9,5 +9,5 @@ Nous avons deux fichiers: /usr/sbin/john && /rofs/usr/sbin/john
 A l'interieur nous avons une chaine de caractere: "cdiiddwpgswtgt"
 Nous essayons de nous connecter avec celle ci mais nous n'y arrivons pas.
 
-Grace a lvasseur qui connait 'https://www.dcode.fr/chiffre-rot' nous avons tente de decoder ce message et en regardantla liste des mdp nous avons vu "NOTTOOHARDHERE" dans la section [A-Z]+15.
+Grace a lvasseur qui connait 'https://www.dcode.fr/chiffre-rot' nous avons tente de decoder ce message et en regardant la liste des mdp nous avons vu "NOTTOOHARDHERE" dans la section [A-Z]+15.
 Nous avons d'abord teste en majuscule puis en minuscule et donc le code est: "nottoohardhere"
