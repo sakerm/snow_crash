@@ -1,0 +1,10 @@
+On remarque rapidement que le fichier /etc/passwd est lisible
+cat /etc/passwd
+
+On remarque au niveau de flag01 que le mot de passe est visible directement: 42hDRfypTqqnw
+
+Evidemment le mot de passe est également crypté
+
+On utilise le logiciel "John the ripper" pour le decrypter, un logiciel connu de decryptage de mot de passe.
+
+Après avoir passé "42hDRfypTqqnw" au logiciel, la chaîne "abcdefg" en ressort, c'était le mot de passe de flag01.
