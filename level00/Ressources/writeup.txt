@@ -1,7 +1,7 @@
 Bonjour, Nous sommes actuellement au Level00.
 Prenez le temps de lire et de poser des questions, nous sommes la pour ca.
 
-Nous allons d'abord la liste des fichiers appartenant a flag00.
+Nous allons d'abord essayer de trouver la liste des fichiers appartenant a flag00.
 
 Pour cela nous allons utiliser la commande 'find / -user flag00 2>/tmp/a'.
 Nous avons deux fichiers: /usr/sbin/john && /rofs/usr/sbin/john
