@@ -1,3 +1,6 @@
+Bonjour, Nous sommes actuellement au Level01.
+Prenez le temps de lire et de poser des questions, nous sommes la pour ca.
+
 On remarque rapidement que le fichier /etc/passwd est lisible
 cat /etc/passwd
 
@@ -5,6 +8,6 @@ On remarque au niveau de flag01 que le mot de passe est visible directement: 42h
 
 Evidemment le mot de passe est également crypté
 
-On utilise le logiciel "John the ripper" pour le decrypter, un logiciel connu de decryptage de mot de passe.
+On utilise le logiciel "John the ripper" sur notre .iso Linux pour le decrypter, un logiciel connu de decryptage de mot de passe.
 
-Après avoir passé "42hDRfypTqqnw" au logiciel, la chaîne "abcdefg" en ressort, c'était le mot de passe de flag01.
+Après on cree un fichier avec dedans "42hDRfypTqqnw" et on fait la commande ./john <nom_du_fichier>, la chaîne "abcdefg" en ressort, c'est le mot de passe de flag01.
