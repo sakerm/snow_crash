@@ -3,7 +3,7 @@ Prenez le temps de lire et de poser des questions, nous sommes la pour ca.
 
 Nous allons d'abord la liste des fichiers appartenant a flag00.
 
-Pour cela nous allons utiliser la commande 'find / -user flag00 2>/dev/null'.
+Pour cela nous allons utiliser la commande 'find / -user flag00 2>/tmp/a'.
 Nous avons deux fichiers: /usr/sbin/john && /rofs/usr/sbin/john
 
 A l'interieur nous avons une chaine de caractere: "cdiiddwpgswtgt"
