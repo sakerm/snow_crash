@@ -7,4 +7,4 @@ On regarde level04.pl et on remarque la ligne "localhost:4747", nous indiquant q
 
 Le "print" présent dans le code utilisant des back quote, on effectue la commande " curl localhost:4747?x=\`getflag\` " qui nous permet de faire une injection dans le code.
 
-Cette commande execute alors getflag en tant que flag04, nous indiquand le flag: 
+Cette commande execute alors getflag en tant que flag04, nous indiquant le flag: ne2searoevaevoem4ov4ar8ap
