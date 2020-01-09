@@ -1,4 +1,6 @@
-`echo '/bin/getflag' > /tmp/echo; chmod +x /tmp/echo; export PATH=/tmp:$PATH; ./level03`
+
+Bonjour, Nous sommes actuellement au Level03.
+Prenez le temps de lire et de poser des questions, nous sommes la pour ca.
 
 On remarque l'executable "level03" présent a la racine, l'exécuter nous écrit "exploit me".
 
