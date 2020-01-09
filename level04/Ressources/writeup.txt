@@ -1,0 +1,9 @@
+Bonjour, Nous sommes actuellement au Level03.
+Prenez le temps de lire et de poser des questions, nous sommes la pour ca.
+
+On remarque qu'il y a un fichier ".pl"
+On remarque avec la commande "find . -user flag04" que level04.pl appartient a level04.pl
+On regarde ce qu'on a à l'interieur de level04 et on voit que "#!/usr/bin/perl" "localhost:4747"
+
+On utilise alors la commande  " curl localhost:4747?x=\`getflag\` " qui nous permet de faire une injection dans le code.
+nous remplaçons le parametre $y par getflag et donc `echo $y 2>&1` se transforme en echo `getflag` sur la session flag04.
