@@ -20,4 +20,4 @@ les points rouges representant un retour arrière, ce qui donne le mot de passe:
 su flag02
 password: ft_waNDReL0L
 
-getflag:
+getflag: kooda2puivaav1idi4f57q8iq
