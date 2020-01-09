@@ -1,0 +1,9 @@
+Bonjour, Nous sommes actuellement au Level01.
+Prenez le temps de lire et de poser des questions, nous sommes la pour ca.
+
+Nous avons commencé par recuperer le fichier level02.pcap sur notre vm linux
+
+commande: scp -P 4242 level02@192.168.0.23:~/level02.pcap .
+
+nous devons rentrer les mot de passes
+
