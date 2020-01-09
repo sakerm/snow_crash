@@ -13,9 +13,9 @@ fffd25fffc25fffb26fffd18fffd20fffd23fffd27fffd24fffe26fffb18fffb20fffb23fffb27ff
 
 après l'avoir décodé d'hexadecimal a ascii on obtient: 
 
-... Password: ft_wandrNDRelL0L ...
+... Password: ft_wandr   NDRel L0L ...
 
-les points rouges representant un retour arrière, ce qui donne le mot de passe: ft_waNDReL0L
+les espaces representant un retour arrière, ce qui donne le mot de passe: ft_waNDReL0L
 
 su flag02
 password: ft_waNDReL0L
