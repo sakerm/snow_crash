@@ -14,6 +14,9 @@ apres quelques test on remarque que "./level09 aaaaa" nous renvoie la chaine "ab
 Donc nous avons un decalage de 1*[la place de la lettre] + [nb ascii de la lettre].
 Nous avonc cree un programme que fait l'inverse, donc -1*[la place de la lettre] - [nb ascii de la lettre].
 
+pour reprendre le fichier:
+scp -P 4242 level09@192.168.1.38:~/token .
+
 Donc en executant notre programme de cette facon python [nom_du_programme].py "$(< token) nous renvoie: f3iji1ju5yuevaus41q1afiuq
 
 Maintenant su flag09 et getflag
