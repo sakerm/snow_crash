@@ -1,0 +1,15 @@
+On remarque les 2 fichiers level06 et level06.php, level06 representant la version compilé de level06.php (le lancer donne le même
+résultat que de lancer level06.php avec la commande "php level06.php"
+
+Après quelques recherches on trouve rapidement que la fonction utilisée "preg_replace" est deprecated à cause de sa vulnérabilité,
+principalement à cause de son flag "/e", qui est présent dans level06.php.
+
+On trouve un exemple de "cracking" de la fonction preg_replace avec /e sur ce site: http://www.madirish.net/402
+
+On apprend qu'il est assez simple d'injecter du code avec cette fonction, et on injecte donc la fonction "system(getflag)".
+
+- echo '[x {${@system(getflag)}}]' > /tmp/crack
+- chmod 777 /tmp/crack
+- ./level06 /tmp/crack
+
+L'injection fonctionne et nous écrit le flag: 
