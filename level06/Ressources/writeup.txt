@@ -1,4 +1,4 @@
-Bonjour, Nous sommes actuellement au Level03.
+Bonjour, Nous sommes actuellement au Level06.
 Prenez le temps de lire et de poser des questions, nous sommes la pour ca.
 
 On remarque les 2 fichiers level06 et level06.php, level06 representant la version compilé de level06.php (le lancer donne le même
