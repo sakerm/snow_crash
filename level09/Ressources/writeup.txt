@@ -1,3 +1,6 @@
+Bonjour, Nous sommes actuellement au Level08.
+Prenez le temps de lire et de poser des questions, nous sommes la pour ca.
+
 Nous avons appercu deux fichiers en entrant dans ce nouveau level
 
 un executable et un fichier token.
