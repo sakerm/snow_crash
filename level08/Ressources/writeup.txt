@@ -1,0 +1,10 @@
+Bonjour, Nous sommes actuellement au Level03.
+Prenez le temps de lire et de poser des questions, nous sommes la pour ca.
+
+nous remarquons level08(executable) et token dont on a aucun droit.
+
+Nous avons fait un lien symbolique vers /tmp car on peut creer des fichier: cd /tmp && ln -s /home/user/level08/token [nom_que_tu_veux] && cd && ./level08 /tmp/[nom_que_tu_veux]
+
+Tout cela nous renvoie "quif5eloekouj29ke0vouxean"
+Donc su flag08 et mdp apres.
+getflag -> Check flag.here is your token : 25749xKZ8L7DkSCwJkT9dyv6f
