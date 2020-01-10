@@ -25,7 +25,6 @@ int main(int argc,char argv,char envp)
 //
 En lisant le code on remarque que l'on peut faire export LOGNAME="&& getflag".
 Ce qui va donner: iVar2 = system(/bin/echo && getflag)
-level07@SnowCrash:~$ export LOGNAME="level07 ; getflag"
 si on execute ./level07
 on nous retourne:"
 
