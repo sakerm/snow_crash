@@ -1,3 +1,6 @@
+Bonjour, Nous sommes actuellement au Level03.
+Prenez le temps de lire et de poser des questions, nous sommes la pour ca.
+
 On recupere l'executable et on le decompile avec Ghidra. Un programme que j'ai utilisé dans boot2root pour "bomb".
 //
 int main(int argc,char argv,char envp)
