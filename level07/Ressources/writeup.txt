@@ -2,6 +2,7 @@ Bonjour, Nous sommes actuellement au Level03.
 Prenez le temps de lire et de poser des questions, nous sommes la pour ca.
 
 On recupere l'executable et on le decompile avec Ghidra. Un programme que j'ai utilisé dans boot2root pour "bomb".
+On recupere le code ci-dessous
 //
 int main(int argc,char argv,char envp)
 
@@ -26,8 +27,7 @@ int main(int argc,char argv,char envp)
   return iVar2;
 }
 //
-En lisant le code on remarque que l'on peut faire export LOGNAME="&& getflag".
-Ce qui va donner: iVar2 = system(/bin/echo && getflag)
+En lisant le code on remarque que iVar2 fait un appel system. asprintf recupere "/bin/echo %s" et pcVar1 puis le copie dans la variable local_1c. Donc si on fait export LOGNAME="&& getflag" cela va nous donner: iVar2 = system(/bin/echo && getflag)
 si on execute ./level07
 on nous retourne:"
 
