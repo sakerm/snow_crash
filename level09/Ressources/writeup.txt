@@ -1,0 +1,18 @@
+Nous avons appercu deux fichiers en entrant dans ce nouveau level
+
+un executable et un fichier token.
+nous avons cette fois les droit dans ce fichier et nous voyons un mot crypter.(selon nous)
+
+quand on execute ./level09 avec une chaine de caractere elle nous le crypte.
+Nous pensons donc que le mot dans le fichier token et un cryptage de l'executable.
+Maintenant que l'on sait ça on essaie de comprendre la maniere dont fonctionne level09.
+
+apres quelques test on remarque que "./level09 aaaaa" nous renvoie la chaine "abcde".
+Donc nous avons un decalage de 1*[la place de la lettre] de la lettre en question.
+Nous avonc cree un programme que fait l'inverse, donc -1*[la place de la lettre] de la lettre en question.
+
+Donc en exuctant notre programme de cette facon python [nom_du_programme].py "$(< token) nous renvoie: f3iji1ju5yuevaus41q1afiuq
+
+Maintenant su flag09 et getflag
+
+Check flag.Here is your token : s5cAJpM8ev6XHw998pRWG728z
