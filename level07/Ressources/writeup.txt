@@ -1,4 +1,4 @@
-On recupere l'executable et on le decompile avec Ghidra.
+On recupere l'executable et on le decompile avec Ghidra. Un programme que j'ai utilisé dans boot2root pour "bomb".
 //
 int main(int argc,char argv,char envp)
 
