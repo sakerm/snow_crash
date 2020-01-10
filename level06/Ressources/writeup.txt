@@ -12,4 +12,4 @@ On apprend qu'il est assez simple d'injecter du code avec cette fonction, et on 
 - chmod 777 /tmp/crack
 - ./level06 /tmp/crack
 
-L'injection fonctionne et nous écrit le flag: 
+L'injection fonctionne et nous écrit le flag: wiok45aaoguiboiki2tuin6ub
